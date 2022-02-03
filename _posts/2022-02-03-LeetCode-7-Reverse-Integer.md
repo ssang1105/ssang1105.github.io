@@ -33,7 +33,7 @@ Output: -321
 Input: x = 120
 Output: 21
 ```
-ㅁㅁㅁ
+
 ## Solution
 
 * Character 와 Stack 을 사용한 `나의` 풀이
