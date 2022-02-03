@@ -7,7 +7,7 @@ description : Two Sum
 comments: true
 ---
 
-
+## [1 : Two Sum](https://leetcode.com/problems/two-sum)
 
 ## Problem
 
@@ -74,7 +74,5 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 * 정말 오랜만에 풀어보았다.
 * O(n) 풀이법은 스스로 생각하지 못해 검색을 통해 해결했다.
-* 매일 꾸준히 연습해야지
+* 매일 꾸준히 연습해야지.
 
-## LeetCode
-* [1 : Two Sum](https://leetcode.com/problems/two-sum)
