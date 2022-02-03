@@ -32,7 +32,7 @@ github:
   username: ssang1105             # change to your github username
 
 twitter:
-  username: none            # change to your twitter username
+  username:             # change to your twitter username
 
 social:
   # Change to your full name.
@@ -70,7 +70,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark  # [light|dark]
+theme_mode:  # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url

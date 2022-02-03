@@ -38,35 +38,35 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 * O(n^2)
 
 ```java
-  public int[]twoSum(int[]nums,int target){
-    for(int i=0;i<nums.length;i++){
-    for(int j=i+1;j<nums.length;j++){
-    if(nums[i]+nums[j]==target){
-    return new int[]{i,j};
-    }
-    }
+  public int[] twoSum(int[] nums, int target) {
+    for (int i = 0; i < nums.length; i++) {
+      for (int j = i + 1; j < nums.length; j++) {
+        if (nums[i] + nums[j] == target) {
+          return new int[]{i, j};
+        }
+      }
     }
     return null;
-    }
+  }
 ```
 
 * O(n)
 
 ```java
-  public static int[]twoSum(int[]nums,int target){
-    Map<Integer, Integer> map=new HashMap<>();
-    for(int i=0;i<nums.length;i++){
-    int remainder=target-nums[i];
-    if(map.containsKey(remainder)){
-    return new int[]{map.get(remainder),i};
-    }
-    map.put(nums[i],i);
+  public static int[] twoSum(int[] nums, int target) {
+    Map<Integer, Integer> map = new HashMap<>();
+    for (int i = 0; i < nums.length; i++) {
+      int remainder = target - nums[i];
+      if (map.containsKey(remainder)) {
+        return new int[]{map.get(remainder), i};
+      }
+      map.put(nums[i], i);
     }
     throw new IllegalArgumentException();
-    }
+  }
 ```
 
-## Time spent
+## Spent time
 
 * 9분
 
