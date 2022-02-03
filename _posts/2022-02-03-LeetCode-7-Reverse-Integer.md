@@ -18,6 +18,7 @@ Assume the environment does not allow you to store 64-bit integers (signed or un
 ```
 
 ## Questions before reading example
+
 1. (memo) negative case
 2. (memo) ends with zero case
 
@@ -69,6 +70,7 @@ Output: 21
 ```
 
 * `*(곱셈)`과 `%(Arithmetic Operators)` 를 사용한 long -> int 아이디어
+
 ``` java
   public int reverse(int x) {
       long num = 0;
