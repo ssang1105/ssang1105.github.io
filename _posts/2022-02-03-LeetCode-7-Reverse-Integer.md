@@ -1,5 +1,5 @@
 ---
-title: LeetCode : Reverse Integer
+title: LeetCode - Reverse Integer
 date: 2022-02-03 22:00:00 +0800
 categories: [leetcode, algorithm]
 tags: [algorithm]
