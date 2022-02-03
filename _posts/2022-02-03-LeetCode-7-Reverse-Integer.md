@@ -3,11 +3,11 @@ title: LeetCode 2. Reverse Integer
 date: 2022-02-03 22:00:00 +0800
 categories: [leetcode, algorithm]
 tags: [algorithm]
-description : Two Sum
+description : Reverse Integer
 comments: true
 ---
 
-## [7 : Two Sum](https://leetcode.com/problems/reverse-integer/)
+## [7 : Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 
 ## Problem
 
@@ -33,7 +33,7 @@ Output: -321
 Input: x = 120
 Output: 21
 ```
-
+ㅁㅁㅁ
 ## Solution
 
 * Character 와 Stack 을 사용한 `나의` 풀이 
@@ -92,5 +92,6 @@ Output: 21
 
 * Stack 을 써야겠다라는 아이디어를 얻고 무식하게 코딩했다.
 * 다른 풀이를 보니 깔끔하고 우아한 방법은 아니다.
-* `%(Arithmetic Operators)`  방법과 내 방법 모두 O(n) 이지만, 엄밀히 내 아이디어는 O(2n) 이고, 공간 복잡도가 더 높다. 가독성도 좋지 않다.
+* `%(Arithmetic Operators)`  방법과 내 방법 모두 O(n) 이지만, 엄밀히 내 아이디어는 O(2n) 이고, 공간 복잡도가 더 높다. 
+* 
 
