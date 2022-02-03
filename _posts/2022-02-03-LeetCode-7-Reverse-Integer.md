@@ -1,9 +1,9 @@
 ---
-title: LeetCode-Reverse Integer
+title: Reverse Integer
 date: 2022-02-03 22:00:00 +0800
 categories: [leetcode, algorithm]
 tags: [algorithm]
-description : Reverse Integer
+description : LeetCode 7. Reverse Integer
 comments: true
 ---
 

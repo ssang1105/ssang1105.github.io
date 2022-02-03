@@ -1,9 +1,9 @@
 ---
-title: LeetCode-Two Sum
+title: Two Sum
 date: 2022-02-02 22:00:00 +0800
 categories: [leetcode, algorithm]
 tags: [algorithm]
-description : Two Sum
+description : LeetCode 1. Two Sum
 comments: true
 ---
 
