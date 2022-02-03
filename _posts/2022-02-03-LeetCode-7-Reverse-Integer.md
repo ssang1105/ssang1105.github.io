@@ -1,9 +1,9 @@
 ---
-title: LeetCode 1. Two Sum
-date: 2022-02-02 22:00:00 +0800
+title: LeetCode : Reverse Integer
+date: 2022-02-03 22:00:00 +0800
 categories: [leetcode, algorithm]
 tags: [algorithm]
-description : Two Sum
+description : Reverse Integer
 comments: true
 ---
 
