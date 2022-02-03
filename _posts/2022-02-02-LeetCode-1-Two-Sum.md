@@ -1,6 +1,6 @@
 ---
 title: LeetCode 1. Two Sum
-date: 2022-02-02 22:00:00 +0800
+date: 2022-02-02 22:00:00 +0900
 categories: [leetcode, algorithm]
 tags: [algorithm]
 description : Two Sum

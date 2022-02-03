@@ -1,6 +1,6 @@
 ---
 title: 뜨거운 감자 함수형 프로그래밍
-date: 2017-01-09 22:00:00 +0800
+date: 2017-01-09 22:00:00 +0900
 categories: [web, java, language]
 tags: [java]
 description : 함수형 프로그래밍 소개

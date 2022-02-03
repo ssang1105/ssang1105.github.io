@@ -1,6 +1,6 @@
 ---
 title: 웹서버를 두대로 늘리려면?
-date: 2016-03-20 22:00:00 +0800
+date: 2016-03-20 22:00:00 +0900
 categories: [web]
 tags: [web]
 description : L4 & 로드 밸런싱

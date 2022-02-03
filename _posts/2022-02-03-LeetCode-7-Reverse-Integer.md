@@ -1,6 +1,6 @@
 ---
 title: LeetCode 7. Reverse Integer
-date: 2022-02-03 21:00:00 +0800
+date: 2022-02-03 21:00:00 +0900
 categories: [leetcode, algorithm]
 tags: [algorithm]
 description : Reverse Integer
