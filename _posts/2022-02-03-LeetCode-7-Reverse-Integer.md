@@ -7,72 +7,92 @@ description : Two Sum
 comments: true
 ---
 
-## [1. Two Sum](https://leetcode.com/problems/two-sum)
+## [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 
 ## Problem
 
 ```
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
-You can return the answer in any order.
+Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
+
+Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
 ```
 
 ## Questions before reading example
 
-* "nums" 가 비어있을 수도 있는가?
-* "nums" 의 최대 길이는?
-* "nums" 의 element 와 target 은 항상 int 타입인가?
-* "nums" 의 element 와 target 은 항상 양수인가?
-* 시간복잡도가 n^2 이어도 괜찮은가?
+1. (memo) negative case
+2. (memo) ends with zero case
 
 ## Example
 
 ```
-Input: nums = [2,7,11,15], target = 9
-Output: [0,1]
-Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+Input: x = 123
+Output: 321
+
+Input: x = -123
+Output: -321
+
+Input: x = 120
+Output: 21
 ```
 
 ## Solution
 
-* O(n^2)
+* Character 와 Stack 을 사용한 `나의` 풀이
 
 ```java
-  public int[] twoSum(int[] nums, int target) {
-    for (int i = 0; i < nums.length; i++) {
-      for (int j = i + 1; j < nums.length; j++) {
-        if (nums[i] + nums[j] == target) {
-          return new int[]{i, j};
-        }
+  public int reverse(int x) {
+    String s = String.valueOf(x);
+    Stack<Character> stack = new Stack<>();
+    boolean isPositive = true;
+    for (int i = 0; i < s.length(); i++) {
+      if (s.charAt(i) == '-') {
+        isPositive = false;
+        continue;
       }
+      stack.push(s.charAt(i));
     }
-    return null;
+
+    StringBuilder resultStringBuilder = new StringBuilder();
+    if (!isPositive) {
+      resultStringBuilder.append("-");
+    }
+    while (!stack.empty()) {
+      resultStringBuilder.append(stack.pop());
+    }
+
+    long result = Long.parseLong(resultStringBuilder.toString());
+    if (result > Integer.MAX_VALUE || result < Integer.MIN_VALUE) {
+      return 0;
+    }
+
+    return (int) result;
   }
 ```
 
-* O(n)
+* `*(곱셈)`과 `%(Arithmetic Operators)` 를 사용한 long -> int 아이디어
 
-```java
-  public static int[] twoSum(int[] nums, int target) {
-    Map<Integer, Integer> map = new HashMap<>();
-    for (int i = 0; i < nums.length; i++) {
-      int remainder = target - nums[i];
-      if (map.containsKey(remainder)) {
-        return new int[]{map.get(remainder), i};
+``` java
+  public int reverse(int x) {
+      long num = 0;
+      while (x != 0) {
+          num = num * 10 + x % 10;
+          x = x / 10;
       }
-      map.put(nums[i], i);
-    }
-    throw new IllegalArgumentException();
+      if (num != (int) num) {
+        return 0;
+      }
+      return (int) num;
   }
+}
 ```
 
 ## Spent time
 
-* 9분
+* 7분
 
 ## Review
 
-* 정말 오랜만에 풀어보았다.
-* O(n) 풀이법은 스스로 생각하지 못해 검색을 통해 해결했다.
-* 매일 꾸준히 연습해야지.
+* Stack 을 써야겠다라는 아이디어를 얻고 무식하게 코딩했다.
+* 다른 풀이를 보니 깔끔하고 우아한 방법은 아니다.
+* `%(Arithmetic Operators)`  방법과 내 방법 모두 O(n) 이지만, 엄밀히 내 아이디어는 O(2n) 이고, 공간 복잡도가 더 높다.
 
