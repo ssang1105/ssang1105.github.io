@@ -1,13 +1,13 @@
 ---
 title: LeetCode 104. Maximum Depth Of Binary Tree
-date: 2022-02-06 21:00:00 +0900
+date: 2022-02-06 20:00:00 +0900
 categories: [leetcode, algorithm]
 tags: [algorithm]
 description : Maximum Depth Of Binary Tree
 comments: true
 ---
 
-## [7. Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+## [104. Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
 ## Problem
 
