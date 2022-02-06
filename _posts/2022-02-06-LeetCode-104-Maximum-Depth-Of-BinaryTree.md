@@ -7,7 +7,7 @@ description : Maximum Depth Of Binary Tree
 comments: true
 ---
 
-## [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+## [7. Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
 ## Problem
 
