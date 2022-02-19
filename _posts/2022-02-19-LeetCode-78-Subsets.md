@@ -66,3 +66,4 @@ class Solution {
 
 * 46 Permutations 에 이어 연속적으로 풀어본 백트래킹 문제
 * 풀이법이 거의 비슷하다
+* 주요 포인트는 `results.add(new ArrayList<>(candidates));`
