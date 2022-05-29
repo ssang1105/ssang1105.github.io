@@ -40,12 +40,20 @@ Output: 1
 * 나의 풀이
 ```java
 class Solution {
-  public void reverseString(char[] s) {
-    for (int i = 0; i < s.length / 2; i++) {
-      char tmp = s[i];
-      s[i] = s[s.length - 1 - i];
-      s[s.length - 1 - i] = tmp;
+  public int singleNumber(int[] nums) {
+
+    Map<Integer, Boolean> map = new HashMap<>();
+    for (int i = 0; i < nums.length; i++) {
+      if (map.containsKey(nums[i])) {
+        map.put(nums[i], false);
+      } else {
+        map.put(nums[i], true);
+      }
     }
+    return map.entrySet().stream()
+      .filter(Entry::getValue)
+      .map(Entry::getKey)
+      .findFirst().orElseThrow();
 
   }
 }
