@@ -80,7 +80,7 @@ theme_mode:  # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://themetakongz.com/kongz/images/3020.png
+avatar: https://img.seadn.io/files/5bccecaeff9e40f3174796f30620f9e1.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
