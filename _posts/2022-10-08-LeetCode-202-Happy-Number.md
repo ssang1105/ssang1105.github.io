@@ -1,6 +1,6 @@
 ---
 title: LeetCode 202. Happy Number
-date: 2022-10-08 18:90:00 +0900
+date: 2022-10-08 18:30:00 +0900
 categories: [leetcode, algorithm]
 tags: [algorithm]
 description : Happy Number
