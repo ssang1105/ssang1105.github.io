@@ -14,29 +14,7 @@ comments: true
 
 ## Questions before reading example
 
-## Solution
-
-* 나의 풀이
-
-```java
-class Solution {
-
-  public boolean isPalindrome(int x) {
-    if (x < 0) {
-      return false;
-    }
-
-    String xStr = String.valueOf(x);
-    for (int i = 0; i < xStr.length() / 2; i++) {
-      if (xStr.charAt(i) != xStr.charAt(xStr.length() - i - 1)) {
-        return false;
-      }
-    }
-
-    return true;
-  }
-}
-```
+## [나의 풀이](https://github.com/ssang1105/LeetCode/blob/master/0009-palindrome-number/0009-palindrome-number.java)
 
 ## Spent time
 * 5m
