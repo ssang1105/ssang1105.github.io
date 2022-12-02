@@ -7,7 +7,7 @@ description : Find Smallest Common Element in All Rows
 comments: true
 ---
 
-## [1198. Flipping An Image](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/)
+## [1198. Find Smallest Common Element in All Rows](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/)
 
 ## [Problem & Example](https://github.com/ssang1105/LeetCode/tree/master/1198-find-smallest-common-element-in-all-rows)
 
