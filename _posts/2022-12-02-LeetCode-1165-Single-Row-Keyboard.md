@@ -7,9 +7,9 @@ description : Single-Row Keyboard
 comments: true
 ---
 
-## [1165. Single-Row Keyboard](https://github.com/ssang1105/LeetCode/tree/master/1165-single-row-keyboard)
+## [1165. Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)
 
-## [Problem & Example](https://github.com/ssang1105/LeetCode/tree/master/1198-find-smallest-common-element-in-all-rows)
+## [Problem & Example](https://github.com/ssang1105/LeetCode/tree/master/1165-single-row-keyboard)
 
 
 ## Questions before reading example
